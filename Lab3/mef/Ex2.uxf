@@ -1,0 +1,40 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLSpecialState</id><coordinates><x>650</x><y>200</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>200</y><w>50</w><h>60</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;30;40</additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>270</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+[Estouro Timer]</panel_attributes><additional_attributes>140;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>320</x><y>260</y><w>180</w><h>110</h></coordinates><panel_attributes>Systick Handler
+state
+--
+do / Evento = 1
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>320</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>630</x><y>80</y><w>600</w><h>490</h></coordinates><panel_attributes>Thread Mode
+state
+--
+Main
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>160</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;80;10;10;70;10;70;80</additional_attributes></element><element><id>UMLState</id><coordinates><x>670</x><y>240</y><w>180</w><h>110</h></coordinates><panel_attributes>Thread Mode
+state
+--
+Main
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>840</x><y>260</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=-&gt;
+Estado = Ligado
+[Evento = 1]</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>840</x><y>300</y><w>170</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>990</x><y>240</y><w>180</w><h>110</h></coordinates><panel_attributes>Thread Mode
+state
+--
+do / Evento = 0
+do / Estado = Desligado
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>340</y><w>200</w><h>120</h></coordinates><panel_attributes>Estado = Desligado [Evento = 1]
+lt=-&gt;</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>340</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>670</x><y>440</y><w>180</w><h>110</h></coordinates><panel_attributes>Thread Mode
+state
+--
+do / Evento = 0
+do / Estado = Ligado
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
